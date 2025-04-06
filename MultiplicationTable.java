@@ -6,7 +6,7 @@ public class MultiplicationTable {
         
         // Taking user input
         System.out.print("Enter a number: ");
-        int num = scanner.nextInt();
+        int num = scanner.nextInt(); 
         
         // Printing the multiplication table
         System.out.println("Multiplication Table of " + num + ":");
