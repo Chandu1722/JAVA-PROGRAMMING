@@ -5,7 +5,7 @@ class Factorial{
     Scanner sc=new Scanner(System.in);
     System.out.print("Enter a number:");
     int num=sc.nextInt(); 
-    sc.close();
+    sc.close(); 
     Factorial f=new Factorial();
     System.out.print("The factorial of given number is "+f.fact(num));
   }
@@ -14,4 +14,4 @@ class Factorial{
       return 1;
     }
     return x*fact(x-1);
-  }
+  } 
