@@ -14,4 +14,4 @@ class Factorial{
       return 1;
     }
     return x*fact(x-1);
-  } 
+  }   
